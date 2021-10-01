@@ -1,0 +1,52 @@
+{
+  "name": "fabio-project",
+  "version": "1.0.0",
+  "description": "Project Description",
+  "main": "nodefony",
+  "scripts": {
+    "nodefony": "nodefony",
+    "pm2": "pm2",
+    "start": "nodefony",
+    "dev": "nodefony dev",
+    "build": "nodefony build",
+    "rebuild": "nodefony rebuild",
+    "stop": "nodefony stop",
+    "prod": "nodefony prod",
+    "kill": "nodefony kill",
+    "test": "nodefony test",
+    "help": "nodefony -h"
+  },
+  "private": true,
+  "keywords": [
+    "Node.js",
+    "nodefony"
+  ],
+  "repository": {},
+  "bugs": {},
+  "license": "",
+  "os": [
+    "darwin",
+    "linux",
+    "freebsd",
+    "win32"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "mongoose": "^6.0.8",
+    "nodefony": "^6.6.0",
+    "pm2": "^5.1.2",
+    "pm2-logrotate": "^2.7.0",
+    "sequelize": "^6.6.5",
+    "webpack": "^5.56.0",
+    "webpack-dev-server": "^4.3.0"
+  },
+  "devDependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.5",
+    "node-gyp": "^8.2.0"
+  },
+  "author": "Fabio CAMENSULI <fabio.camensuli@icloud.com>",
+  "readmeFilename": "README.md",
+  "contributors": [{}]
+}

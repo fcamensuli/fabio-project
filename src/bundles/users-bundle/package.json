@@ -1,0 +1,62 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "users Bundle",
+  "author": "",
+  "main": "usersBundle.js",
+  "scripts": {
+    "sequelize-init": "npm run init --prefix ./Entity/sequelize ;",
+    "sequelize-model-generate": "npm run model-generate --prefix ./Entity/sequelize ;"
+  },
+  "private": true,
+  "keywords": [
+    "nodefony",
+    "javascript",
+    "Users Management"
+  ],
+  "repository": {},
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@popperjs/core": "^2.10.2",
+    "babel-loader": "^8.2.2",
+    "babel-register": "^6.26.0",
+    "bootstrap": "^5.1.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^6.3.0",
+    "expose-loader": "^3.0.0",
+    "faker": "^5.5.3",
+    "font-awesome": "^4.7.0",
+    "graphiql": "^1.4.2",
+    "graphql": "^15.6.0",
+    "html-webpack-plugin": "^5.3.2",
+    "imports-loader": "^3.0.0",
+    "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^2.3.0",
+    "mongoose-paginate-v2": "^1.4.2",
+    "node-sass": "^6.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "svg-inline-loader": "^0.8.2",
+    "swagger-ui": "^3.52.3",
+    "swagger-ui-dist": "^3.52.3",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.56.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.5",
+    "node-gyp": "^8.2.0",
+    "sequelize-cli": "^6.2.0"
+  },
+  "license": "CECILL-B",
+  "readmeFilename": "README.md",
+  "contributors": []
+}
