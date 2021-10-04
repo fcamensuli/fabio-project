@@ -37,12 +37,12 @@ module.exports = {
    *      }
    *
    */
-    watch: false,
+    watch: true,
     /**
    * DEV SERVER
    */
   devServer: {
-    hot: false
+    hot: "only"
   },
 
   /*
