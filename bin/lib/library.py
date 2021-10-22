@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 
 def addInteger(x, y):
     if type (x) == "str":
@@ -36,14 +34,14 @@ def diviseInteger(x, y):
 
 # les tests
 
-a = 2
-b = 0
-result = addInteger(a, b)
-print(f"Le resultat de {a} + {b} est : {result}")
-
-result = multipliInteger(a, b)
-print(f"Le resultat de {a} + {b} est : {result}")
-
-
-result = diviseInteger(a, b)
-print(f"Le resultat de {a} + {b} est : {result}")
+# a = 2
+# b = 0
+# result = addInteger(a, b)
+# print(f"Le resultat de {a} + {b} est : {result}")
+#
+# result = multipliInteger(a, b)
+# print(f"Le resultat de {a} + {b} est : {result}")
+#
+#
+# result = diviseInteger(a, b)
+# print(f"Le resultat de {a} + {b} est : {result}")

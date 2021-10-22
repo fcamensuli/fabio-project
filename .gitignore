@@ -15,6 +15,8 @@ npm-debug.log
 
 config/certificates/**/*
 
+yarn.lock
+
 #Ignore vin backup
 *.swp
 *.swn
