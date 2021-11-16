@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+from lib.date import calculate_age
+
+# EXERCICE 6 page 123
+age = 15
+nom ="elodie"
+print(f"{nom} {age} ans")
+#today = date.today()
+#print(today.year -15)
+
+year = input("Veuillez donner votre année de naissance : ")
+
+res = calculate_age(int(year))
+print(res)
+
+
+
+
+# EXERCICE 7

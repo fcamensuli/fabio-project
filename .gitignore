@@ -31,3 +31,8 @@ yarn.lock
 /.project
 /.settings
 /nbproject/private/
+
+
+__pycache__/
+*.py[cod]
+*$py.class
